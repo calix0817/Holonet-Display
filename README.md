@@ -56,6 +56,21 @@ Data is aggregated by **Home Assistant** and published over **MQTT** as a single
 
 ---
 
+## 🖨️ 3D Printable Enclosure
+
+Printable STL files designed specifically for housing the dual OLEDs and ESP8266 are available in the [`3D Model/`](3D%20Model/) directory:
+
+* [`Holonet_V3_Body.stl`](3D%20Model/Holonet_V3_Body.stl) - Main console chassis holding the dual 0.96" SSD1306 displays and microcontroller.
+* [`Holonet_V3_Backplate.stl`](3D%20Model/Holonet_V3_Backplate.stl) - Rear enclosure backplate with cable routing.
+
+### Print Recommendations:
+* **Material:** PLA, PETG, or ABS (Matte Black, Imperial Gray, or White for the Star Wars terminal look).
+* **Layer Height:** 0.16mm – 0.20mm
+* **Infill:** 15% – 20% (Gyroid or Grid)
+* **Supports:** None or minimal depending on print orientation.
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
